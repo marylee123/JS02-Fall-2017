@@ -1,0 +1,17 @@
+#myTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+#predictionTable{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
