@@ -1,0 +1,71 @@
+let myInt = 7;
+let myString = "the number 7";
+let myNumString = "7";
+
+$(document).ready(function(){
+	$(`table#predictionTable`).append(`
+		<tr>   
+			<th>Addition</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th>myInt+myInt?</th>
+			<td>${myInt+myInt}</td>
+		</tr>
+		<tr>
+			<th>myInt+myString?</th>
+			<td>${myInt+myString}</td>
+		</tr>
+		<tr>
+			<th>myInt+myNumString?</th>
+			<td>${myInt+myNumString}</td>
+		</tr>
+		<tr>
+			<th>myNumString+myInt?</th>
+			<td>${myNumString+myInt}</td>
+		</tr>
+		<tr>
+			<th>Fancier Addition</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th>myInt+myNumString+myString?</th>
+			<td>${myInt+myNumString+myString}</td>
+		</tr>
+		<tr> 
+			<th>myInt+myInt+myString?</th>
+			<td>${myInt+myInt+myString}</td>
+		</tr>
+		<tr>
+			<th>myString+myInt+myInt?</th>
+			<td>${myString+myInt+myInt}</td>
+		</tr>
+		<tr>
+			<th>Subtraction</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th>myInt-myString?</th>
+			<td>${myInt-myString}</td>
+		</tr>
+		<tr>
+			<th>myInt-myNumString?</th>
+			<td>${myInt-myNumString}</td>
+		</tr>
+		<tr>
+			<th>myString-myNumString?</th>
+			<td>${myString-myNumString}</td>
+		</tr>
+		<tr>
+			<th>Comparisons</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th>myInt==myNumString?</th>
+			<td>${myInt==myNumString}</td>
+		</tr>
+		<tr>
+			<th>myInt===myNumString?</th>
+			<td>${myInt===myNumString}</td>
+		</tr>`)
+});
