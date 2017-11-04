@@ -11,3 +11,9 @@ function counting(){
 		document.getElementById("demo").innerHTML = text;
 	}, 1000);
 }
+/*indie flower
+pacifico
+lobster
+dancing script
+poiret one
+cinzel*/
